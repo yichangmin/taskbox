@@ -4,7 +4,7 @@ import store from '../lib/store';
 import { Provider } from 'react-redux';
 import { rest } from 'msw';
 import { MockedState } from './TaskList.stories';
-import { fireEvent, within, watiFor, waitForElementToBeRemoved, waitFor } from '@testing-library/react';
+import { fireEvent, within, waitFor, waitForElementToBeRemoved } from '@testing-library/react';
 
 export default {
   component: InboxScreen,
